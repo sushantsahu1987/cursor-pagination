@@ -4,9 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Sushant Sahu <sushant87@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
+    "pg": "^8.10.0",
+    "pg-format": "^1.0.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
 }
