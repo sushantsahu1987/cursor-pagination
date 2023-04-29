@@ -13,13 +13,10 @@ const main = async () => {
     const dbName = process.env.DB_NAME;
     await client.connect();
     const db = client.db(dbName);
-
     // http://localhost:3000/api/offset/1
-    app.get("/api/offset/:page", page_controller);
-
+    app.get("/api/offset/:page", page_controller(db));
     // http://localhost:3000/api/cursor/1
-    app.get("/api/cursor/:page", cursor_controller);
-
+    app.get("/api/cursor/:page", cursor_controller(db));
     app.listen(3000, () => {
       console.log("Server is running on port 3000");
     });
