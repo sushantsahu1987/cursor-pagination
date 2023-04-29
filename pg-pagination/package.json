@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "./node_modules/nodemon/bin/nodemon.js index.js"
   },
   "keywords": [],
   "author": "Sushant Sahu <sushant87@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "lodash": "^4.17.21",
+    "nodemon": "^2.0.22",
     "pg": "^8.10.0",
     "pg-format": "^1.0.4",
     "uuid": "^9.0.0"
