@@ -22,5 +22,8 @@ Learning how to paginate over data using a cursor
 6. host    all             all             all                     trust
 7. service postgresql restart
 
+## Adding multiple rows in PG
+1. https://www.wlaurance.com/2018/09/node-postgres-insert-multiple-rows
+
 ## Test Benchmarking Tool
 1. https://lib.rs/crates/oha

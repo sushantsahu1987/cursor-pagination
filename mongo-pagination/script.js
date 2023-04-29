@@ -52,7 +52,9 @@ const write = async (user_accounts) => {
   // console.log(user_accounts_result.length);
 };
 
-const main = async () => {
+const init = async () => {
   const user_accounts = await generate();
   await write(user_accounts);
 };
+
+module.exports = init;
