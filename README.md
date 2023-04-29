@@ -21,3 +21,6 @@ Learning how to paginate over data using a cursor
 5. subsection # IPv4 local connections:
 6. host    all             all             all                     trust
 7. service postgresql restart
+
+## Test Benchmarking Tool
+1. https://lib.rs/crates/oha
